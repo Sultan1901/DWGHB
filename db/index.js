@@ -5,7 +5,7 @@ const options = {
 };
 mongoose
   .connect(
-    `mongodb+srv://r0x:012774Ss@cluster0.cxdsd.mongodb.net/?retryWrites=true&w=majority`,
+    `mongodb+srv://@cluster0.cxdsd.mongodb.net/?retryWrites=true&w=majority`,
     options
   )
   .then(
